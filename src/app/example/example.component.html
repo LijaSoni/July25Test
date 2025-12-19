@@ -1,0 +1,34 @@
+<p>example works!</p>
+<!-- Structural directives----ngIf,ngFor,ngSwitch-->
+
+<!-- <button (click)="display()">Click me</button>
+<p *ngIf="check">Condition is true..if case is working</p>
+<p *ngIf="!check">Condition is false..else case is working</p> -->
+
+<!-- <div *ngIf="check; else d1">
+    Helloooo....
+</div>
+<ng-template #d1>
+    <p>hai good morning.....Welcome</p>
+</ng-template> -->
+<!-- 
+<ng-template [ngIf]="check" [ngIfElse]="d1">
+    Helloooo....
+</ng-template>
+<ng-template #d1>
+    <p>hai good morning.....Welcome</p>
+</ng-template> -->
+<!-- <ul>
+    <li *ngFor="let item of stlist">
+        {{item.id}},{{item.name}},{{item.Mark}}
+    </li>
+</ul> -->
+<!-- <container-element [ngSwitch]="today">
+    <span *ngSwitchCase="0"><h1>Sunday</h1></span>
+    <span *ngSwitchCase="1"><h1>Monday</h1></span>
+    <span *ngSwitchCase="2"><h1>TuesDay</h1></span>
+    <span *ngSwitchCase="3"><h1>Wednesday</h1></span>
+    <span *ngSwitchCase="4"><h1>Thursday</h1></span>
+</container-element> -->
+<p>Total: {{ amount | currency }}</p>
+Formatted and Uppercased: {{ eventDate | date:'fullDate' | uppercase }}
